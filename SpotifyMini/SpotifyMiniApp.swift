@@ -11,7 +11,7 @@ import SwiftUI
 struct SpotifyMiniApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          LoginScreen(viewModel: LoginViewModel())
         }
     }
 }
