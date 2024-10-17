@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>redirectURI</key>
+	<string>https://www.github.com</string>
 	<key>ClientSecret</key>
 	<string>c0f91df6f6744767a4e81fb502350844</string>
 	<key>ClientID</key>

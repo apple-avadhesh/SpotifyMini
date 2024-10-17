@@ -10,9 +10,10 @@ import Foundation
 protocol BasicInfoProvider {
   func getClientID() -> String
   func getClientSecret() -> String
+  func getRedirectURI() -> String
 }
 
-struct BasicInfo: BasicInfoProvider {
+struct PlistBasicInfoProvider: BasicInfoProvider {
 
   private let plistData: NSDictionary
 
@@ -34,6 +35,13 @@ struct BasicInfo: BasicInfoProvider {
   func getClientSecret() -> String {
     guard let clientSecret = plistData["ClientSecret"] as? String else {
       fatalError("ClientSecret not found in the plist or invalid format.")
+    }
+    return clientSecret
+  }
+
+  func getRedirectURI() -> String {
+    guard let clientSecret = plistData["redirectURI"] as? String else {
+      fatalError("RedirectURI not found in the plist or invalid format.")
     }
     return clientSecret
   }
