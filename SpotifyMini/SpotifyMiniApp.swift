@@ -10,10 +10,9 @@ import SwiftUI
 @main
 struct SpotifyMiniApp: App {
 
-
     var body: some Scene {
         WindowGroup {
-          LoginScreen()
+          HomeScreen()
         }
     }
 }

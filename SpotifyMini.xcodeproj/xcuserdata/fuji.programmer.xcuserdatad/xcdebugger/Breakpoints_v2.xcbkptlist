@@ -3,4 +3,68 @@
    uuid = "3174629E-10B3-4222-BBCE-390F1B54B6E0"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F2992CA-E2E1-43DA-A9F7-9B5CED4BFF1E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpotifyMini/Service/AuthManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "getAccessKey(code:redirectURI:clientID:clientSecret:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7F2992CA-E2E1-43DA-A9F7-9B5CED4BFF1E - b0255544b6bef925"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;SpotifyMini.AuthModel, Swift.Error&gt;) -&gt; () in SpotifyMini.AuthManager.getAccessKey(code: Swift.String, redirectURI: Swift.String, clientID: Swift.String, clientSecret: Swift.String, completionHandler: (SpotifyMini.AuthModel) -&gt; ()) -&gt; ()"
+                  moduleName = "SpotifyMini.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fuji.programmer/Desktop/GitDesktop/SpotifyMini/SpotifyMini/Service/AuthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66">
+               </Location>
+               <Location
+                  uuid = "7F2992CA-E2E1-43DA-A9F7-9B5CED4BFF1E - b0255544b6bef925"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;SpotifyMini.AuthModel, Swift.Error&gt;) -&gt; () in SpotifyMini.AuthManager.getAccessKey(code: Swift.String, redirectURI: Swift.String, clientID: Swift.String, clientSecret: Swift.String, completionHandler: (SpotifyMini.AuthModel) -&gt; ()) -&gt; ()"
+                  moduleName = "SpotifyMini.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fuji.programmer/Desktop/GitDesktop/SpotifyMini/SpotifyMini/Service/AuthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64BE06BA-F2BE-4A7F-8A61-4858DDA5D075"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpotifyMini/Service/AuthManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "getAccessKey(code:redirectURI:clientID:clientSecret:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

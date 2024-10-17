@@ -52,9 +52,9 @@ struct AuthWebView: UIViewRepresentable {
       if let code = url.query?.components(separatedBy: "code=").last {
         // Exchange the code for an access token
         parent.authViewModel.getAccessKey(code: code,
-                                      redirectURI: basicInfoProvider.getRedirectURI(),
-                                      clientID: basicInfoProvider.getClientID(),
-                                      clientSecret: basicInfoProvider.getClientSecret())
+                                          redirectURI: basicInfoProvider.getRedirectURI(),
+                                          clientID: basicInfoProvider.getClientID(),
+                                          clientSecret: basicInfoProvider.getClientSecret())
       }
 
       decisionHandler(.cancel) // Stop loading the redirect URI

@@ -104,10 +104,3 @@ struct URLSessionNetworkRequest: NetworkRequest {
   }
 }
 
-// MARK: Scope
-extension String {
-    static func from(authScopes: [AuthScope]) -> String {
-        authScopes.map { $0.rawValue }.joined(separator: "+")
-    }
-}
-
